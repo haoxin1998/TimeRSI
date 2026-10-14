@@ -1,0 +1,7 @@
+timersi:
+  organization: "GaTech & SamayLabs"
+  display_name: TimeRSI
+  url: https://github.com/haoxin1998/TimeRSI
+  model_type: closed-api
+  zero_shot: false
+  commercial_use: false

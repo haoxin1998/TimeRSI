@@ -1,0 +1,2 @@
+timersi-fevbench @ git+https://github.com/haoxin1998/TimeRSI.git@v1.1.0
+timesfm[torch] @ git+https://github.com/google-research/timesfm.git@45e0a3bc7fc4acef17b7ba7910488be2159bae5f

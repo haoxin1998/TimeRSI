@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "timersi-fevbench"
+version = "1.1.0"
+description = "Code-agent research and chronological forecast composition around frozen TimesFM"
+requires-python = ">=3.12"
+dependencies = ["numpy==2.5.3", "pandas==2.3.3", "scipy==1.18.1", "scikit-learn==1.9.1", "lightgbm==4.7.0", "datasets==4.8.5", "fev @ git+https://github.com/autogluon/fev.git@bd0502bb73d3cf0b7e5998a6cdadff36ec4c5423", "PyYAML==6.0.3", "requests==2.34.2"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+timersi_u1 = ["method_library/*.py", "method_library/*.md", "registry186.json"]
